@@ -34,7 +34,7 @@
 	import Button from "$lib/components/ui/Button.svelte";
 
 	// Constants
-	import { cta } from "$lib/navigation";
+	// CTA import removed
 
 	function handleImageError(e: Event) {
 		const target = e.currentTarget as HTMLImageElement;
@@ -58,7 +58,7 @@
 		title,
 		subtitle,
 		imageSrc,
-		callsToAction = [cta],
+		callsToAction = [],
 		centered = false,
 		...rest
 	}: Props = $props();

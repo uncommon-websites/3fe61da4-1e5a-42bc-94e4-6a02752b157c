@@ -39,7 +39,7 @@
 	// Components
 	import Button from "../ui/Button.svelte";
 	import AnimateText from "../animation/AnimateText.svelte";
-	import { cta } from "$lib/navigation";
+	// CTA import removed
 
 	// Types
 	type CTA = {
@@ -54,7 +54,7 @@
 		subtitle = "Join now",
 		description = "Ready to experience the difference? Join our community of satisfied customers and see how our solution can transform your workflow. ",
 		imageSrc = "https://www.unc.mn/image-placeholder.svg",
-		callsToAction = [cta],
+		callsToAction = [],
 		...rest
 	}: {
 		title?: string;

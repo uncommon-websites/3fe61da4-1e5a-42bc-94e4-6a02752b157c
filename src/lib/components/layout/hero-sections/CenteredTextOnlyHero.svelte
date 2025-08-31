@@ -12,7 +12,7 @@ Takes up the full viewport height and centers content vertically.
 	import Button from "$lib/components/ui/Button.svelte";
 
 	// Constants
-	import { cta } from "$lib/navigation";
+	// CTA import removed
 
 	// Types
 	type Props = {
@@ -28,7 +28,7 @@ Takes up the full viewport height and centers content vertically.
 	let {
 		title,
 		subtitle,
-		callsToAction = [cta],
+		callsToAction = [],
 		imageSrc = "https://www.unc.mn/image-placeholder.svg",
 		...rest
 	}: Props = $props();

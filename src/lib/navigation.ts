@@ -46,10 +46,7 @@ export type NavItem = {
 	})[];
 };
 
-export const cta = {
-	label: "Book demo",
-	href: "/"
-};
+// CTA removed as requested
 
 export const navigation: NavItem[] = [
 	{

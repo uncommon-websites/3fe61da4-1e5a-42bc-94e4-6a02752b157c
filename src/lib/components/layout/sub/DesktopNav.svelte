@@ -9,7 +9,7 @@
 	import DesktopNavDropdown from "./_DesktopNavDropdown.svelte";
 
 	// Utils
-	import { cta, navigation } from "$lib/navigation";
+	import { navigation } from "$lib/navigation";
 
 	// Props
 	const { items }: Props = $props();
@@ -52,7 +52,7 @@
 		</div>
 	</NavigationMenu.Root>
 
-	<Button size="sm" variant="secondary" href={cta.href} class="ml-1">{cta.label}</Button>
+	<!-- CTA button removed -->
 </div>
 
 <style lang="postcss">

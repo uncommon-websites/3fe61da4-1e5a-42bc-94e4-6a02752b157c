@@ -8,7 +8,7 @@
 	import IconChevronRight from "~icons/lucide/chevron-right";
 
 	// Utils
-	import { cta, navigation } from "$lib/navigation";
+	import { navigation } from "$lib/navigation";
 	import { beforeNavigate } from "$app/navigation";
 
 	// Props
@@ -110,15 +110,11 @@
 		{/each}
 	</ul>
 
-	<div class="section-px section-pb container mx-auto w-full">
-		<Button size="lg" variant="primary" class="z-0 w-full md:w-auto" href={cta.href}
-			>{cta.label}</Button
-		>
-	</div>
+	<!-- CTA button removed from mobile menu -->
 </div>
 
 <div class="flex items-center justify-end gap-2">
-	<Button size="sm" variant="secondary" href={cta.href}>{cta.label}</Button>
+	<!-- CTA button removed -->
 
 	<Button
 		aria-label="Toggle nav"

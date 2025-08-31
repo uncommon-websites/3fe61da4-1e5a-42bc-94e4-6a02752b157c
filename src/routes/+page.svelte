@@ -113,4 +113,4 @@
 	]}
 />
 <AboutTeaser />
-<CallToAction generating />
+<CallToAction />

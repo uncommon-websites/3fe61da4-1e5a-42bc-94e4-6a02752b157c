@@ -13,7 +13,7 @@ It should ALWAYS have between 3 and 5 customers!
 	import Button from "$lib/components/ui/Button.svelte";
 
 	// Constants
-	import { cta } from "$lib/navigation";
+	// CTA import removed
 	import { onMount } from "svelte";
 	import StakeholderCard from "../sub/StakeholderCard.svelte";
 	import { animate, stagger } from "motion";
@@ -41,7 +41,7 @@ It should ALWAYS have between 3 and 5 customers!
 		title,
 		subtitle,
 		customers = [],
-		callsToAction = [cta],
+		callsToAction = [],
 		centered = false,
 		...rest
 	}: Props = $props();
