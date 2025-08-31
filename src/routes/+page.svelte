@@ -10,12 +10,29 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Professional React components that ship faster"
+	subtitle="Skip the generic AI outputs. Get taste-driven components curated by real product teams."
+	centered={false}
+	callsToAction={[
+		{
+			href: "/components",
+			label: "Browse components"
+		},
+		{
+			href: "/docs",
+			label: "Get started"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by engineering teams at"
+	logoUrls={[
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/figma.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/linear.app/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
