@@ -7,6 +7,14 @@
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
 	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+
+	// Icons
+	import IconHeart from "~icons/lucide/heart";
+	import IconZap from "~icons/lucide/zap";
+	import IconStar from "~icons/lucide/star";
+	import IconRocket from "~icons/lucide/rocket";
+	import IconUsers from "~icons/lucide/users";
+	import IconSparkles from "~icons/lucide/sparkles";
 </script>
 
 <Hero
@@ -35,62 +43,74 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="What we deliver"
+	text="21st provides curated React components built by real product teams, not generic AI outputs. Frontend developers at venture-backed startups choose our library to ship polished interfaces faster while maintaining the design quality that sets their products apart from the competition."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Marcus Chen",
+			position: "Senior Frontend Engineer",
+			company: "Velocity Labs",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"21st saved us 3 weeks on our landing page rebuild. Instead of building components from scratch, we shipped professional-quality UI in days. The taste-driven designs meant zero back-and-forth with our design team.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Elena Rodriguez",
+			position: "Tech Lead",
+			company: "Startup Forge",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"Before 21st, I spent 40% of my time recreating basic components. Now I focus on product features while shipping interfaces that look like they came from a top-tier design team. ROI was immediate.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "David Okafor",
+			position: "Engineering Manager",
+			company: "Growth Stack",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"21st eliminated the component lottery for our team. No more inconsistent UI or hours debating button styles. Our developers ship faster and our product feels cohesive across every screen.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why developers choose 21st"
+	subtitle="Professional components that ship faster without compromising on design quality"
 	features={[
 		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+			title: "Human-curated components",
+			description: "Skip generic AI outputs and get taste-driven components validated by real product teams at successful startups.",
+			icon: IconHeart
 		},
 		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+			title: "Ship in minutes, not hours",
+			description: "Stop rebuilding basic UI elements from scratch and focus on features that matter to your users.",
+			icon: IconZap
 		},
 		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+			title: "Impress stakeholders",
+			description: "Professional polish that makes your demos shine and builds confidence with investors and team leads.",
+			icon: IconStar
+		},
+		{
+			title: "Built for startups",
+			description: "Components designed for fast-moving teams who need to iterate quickly without sacrificing quality.",
+			icon: IconRocket
+		},
+		{
+			title: "Community-driven quality",
+			description: "Battle-tested components from Discord communities and GitHub discussions, not isolated development.",
+			icon: IconUsers
+		},
+		{
+			title: "Beyond cookie-cutter design",
+			description: "Distinctive components that help your product stand out in a sea of identical interfaces.",
+			icon: IconSparkles
 		}
 	]}
 />
-<AboutTeaser generating />
+<AboutTeaser />
 <CallToAction generating />
